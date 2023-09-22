@@ -14,3 +14,6 @@ fun solution(myString:String,alp:String):String{
 
 	return myString.replace(alp,alp.uppercase())
 }
+
+
+data class Response(val list:List<Any>)
